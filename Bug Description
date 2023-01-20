@@ -1,0 +1,24 @@
+Observation : 1. There are two api's which are failing https://pro-fapi-osa.t-cg.co.uk/api/schools/organisationId/news?markAsRead=false and
+https://pro-fapi-osa.t-cg.co.uk/api/schools/organisationId/news?markAsRead=false
+Note: Both the url is same for the api
+The first api is given as False
+The second api is giving 404 error - not found error
+If these api's are fixed then the News may appear
+
+Observation: 2.The response body of the first api : https://pro-fapi-osa.t-cg.co.uk/api/schools/organisationId/news?markAsRead=false
+Failed to load response, no data found
+
+The response body of the second api : https://pro-fapi-osa.t-cg.co.uk/api/schools/organisationId/news?markAsRead=false
+Request Method: OPTIONS
+Status Code: 404 
+Remote Address: 164.177.134.32:443
+Referrer Policy: strict-origin-when-cross-origin
+
+Obseveration : 3. The qa test portal is not displaying the header H3,  mark all read button and the news
+Class = col-5 m-0 p-0 and Class = list-group list-group-horizontal flex-wrap are missing in the elements.
+
+Bug Description : The news section in qatest portal(https://osa-web.t-cg.co.uk/qatest) is not displaying any data, There are two api's 
+which are failing while loading the page. The Url of the api that might have caused the problem are:
+https://pro-fapi-osa.t-cg.co.uk/api/schools/organisationId/news?markAsRead=false
+Kindly check if all the elements are in place and please fix the failing api's.
+
