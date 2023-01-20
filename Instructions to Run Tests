@@ -1,0 +1,12 @@
+Step 1: install nodejs
+Step 2: check the version of the node installed
+Step 3: install cypress in visual studio
+Step 4: open the terminal npm init
+Step 5: copy paste the cypress code written for iris
+Step 6: Run the code by npx cypress open
+Step 7: select any browser and ene to end description method
+Step 8: execute the code.
+
+If cypress is already installed
+Step 1: copy and paste the code 
+Step 2: Run the code by npx cypress open
