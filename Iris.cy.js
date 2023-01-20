@@ -1,4 +1,4 @@
-
+/// <reference types="cypress"/>
 
 
 it('Test 1 Postisive Flow', function () {
